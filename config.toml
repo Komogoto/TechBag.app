@@ -17,8 +17,9 @@ disableKinds = ["taxonomy", "term"]
   image = "img/bagpack.png"  # path relative to static directory
   
 
-  links = [
-    { github = "https://github.com/theoricher/techbag.app" },              
+  links = [  
+    { github = "https://github.com/theoricher/techbag.app" },
+    { about = { href = "./about/", text = "About TechBag.app" } },               
   ]
 
 [module]
