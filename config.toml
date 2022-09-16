@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "term"]
 
   links = [  
     { github = "https://github.com/theoricher/techbag.app" },
-    { about = { href = "./about/", text = "About TechBag.app" } },               
+    { about = { href = "./about/", text = "About TechBag.app", target = "_self" } },               
   ]
 
 [module]
