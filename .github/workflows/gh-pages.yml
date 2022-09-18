@@ -32,7 +32,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source-directory: 'public'
-          destination-github-username: 'theoricher'
+          destination-github-username: 'komogoto'
           destination-repository-name: 'TechBag.app'
           user-email:  ${{ secrets.EMAIL_GITHUB }}
           user-name: theoricher
