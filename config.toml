@@ -16,7 +16,9 @@ disableKinds = ["taxonomy", "term"]
   
 
   links = [
-    { send = { href = "https://send.techbag.app", text = "Send (Temporary encryt file upload system)", target = "_self" } },  
+    { send = { href = "https://send.techbag.app", text = "Send large files", target = "_blank" } },
+    { paste = { href = "https://paste.techbag.app", text = "Secure paste share", target = "_blank" } },
+    { speed = { href = "https://speed.techbag.app", text = "Speed Test", target = "_blank" } },              
     { github = "https://github.com/komogoto/techbag.app" },
     { about = { href = "./about/", text = "About TechBag.app", target = "_self" } },               
   ]
