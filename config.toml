@@ -15,7 +15,8 @@ disableKinds = ["taxonomy", "term"]
   image = "img/bagpack.png"  # path relative to static directory
   
 
-  links = [  
+  links = [
+    { send = { href = "https://send.techbag.app", text = "Send (Temporary encryt file upload system)", target = "_self" } },  
     { github = "https://github.com/komogoto/techbag.app" },
     { about = { href = "./about/", text = "About TechBag.app", target = "_self" } },               
   ]
