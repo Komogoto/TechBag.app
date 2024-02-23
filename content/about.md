@@ -15,11 +15,17 @@ Plik is a temporary file upload system (Wetransfer like) in Go.
 
 __Open app :__ [send.techbag.app](https://send.techbag.app/)
 
-### LibreSpeed 
-No Flash, No Java, No Websocket.
-This is a very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and Web Workers.
+### Excalidraw 
+Excalidraw is a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.
 
-__Open app :__ [speed.techbag.app](https://speed.techbag.app/)
+__Open app :__ [excalidraw.techbag.app](https://excalidraw.techbag.app/)
+
+### Rallly 
+Rallly is an open-source scheduling and collaboration tool designed to make organizing events and meetings easier.
+
+__Open app :__ [rallly.techbag.app](https://rallly.techbag.app/)
 
 ## Where is data hosted?
-The data is hosted in France in Scaleway DC5 datacenter. The data is distributed on Bare Metal servers or Public Cloud instances depending on the application used.
+We would like to inform you that all our application data is hosted in Switzerland, in the BrainServe data centre in Lausanne. This location guarantees the confidentiality and security of your information.
+
+Please note that only send.techbag.app data is stored encrypted in the OVH datacenter in Strasbourg, reinforcing our commitment to the security and confidentiality of your sensitive data.
