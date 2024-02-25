@@ -25,6 +25,11 @@ Rallly is an open-source scheduling and collaboration tool designed to make orga
 
 __Open app :__ [rallly.techbag.app](https://rallly.techbag.app/)
 
+### WiseMapping 
+WiseMapping is a collaborative online mind mapping tool that empowers teams to brainstorm, organize ideas, and plan projects seamlessly. With intuitive features and real-time collaboration, it fosters creativity and enhances productivity for individuals and groups alike.
+
+__Open app :__ [mindmap.techbag.app](https://mindmap.techbag.app/)
+
 ## Where is data hosted?
 We would like to inform you that all our application data is hosted in Switzerland, in the BrainServe data centre in Lausanne. This location guarantees the confidentiality and security of your information.
 

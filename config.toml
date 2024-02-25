@@ -19,6 +19,7 @@ disableKinds = ["taxonomy", "term"]
     { send = { href = "https://send.techbag.app", text = "Send large files", target = "_blank" } },
     { paste = { href = "https://paste.techbag.app", text = "Secure paste share", target = "_blank" } },
     { draw = { href = "https://excalidraw.techbag.app", text = "Draw, Virtual whiteboard", target = "_blank" } },
+    { mindmap = { href = "https://mindmap.techbag.app", text = "WiseMapping (beta), Mind mapping tool", target = "_blank" } },
     { rallly = { href = "https://rallly.techbag.app", text = "Rallly, Schedule Group Meetings", target = "_blank" } },              
     { github = "https://github.com/komogoto/techbag.app" },
     { about = { href = "./about/", text = "About TechBag.app", target = "_self" } },               
