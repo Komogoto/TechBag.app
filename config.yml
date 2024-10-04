@@ -4,7 +4,7 @@
 
 title: "TechBag.app"
 subtitle: "An awesome bag👌"
-logo: "https://techbag.app/img/bagpack.png"
+logo: "assets/icons/bagpack.png"
 
 header: true
 footer: '<p>Created with <span class="has-text-danger">❤️</span> by <a href="https://komogoto.com/">Komogoto</a></p>'
