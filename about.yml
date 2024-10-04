@@ -1,0 +1,28 @@
+---
+# About page configuration
+
+# This overwrites message config. Setting it to empty to remove message from this page and keep it only in the main one:
+message:
+  style: "is-dark"
+  title: "👋 About TechBag.app"
+  content: "<h1>What is TechBag.app?</h1><p><br>TechBag.app is a platform providing a number of opensource tools useful to computer technicians, system and network administrators...</p><br><h1>Where is data hosted?</h1><p><br>We would like to inform you that all our application data is hosted in Switzerland, in the BrainServe data centre in Lausanne. This location guarantees the confidentiality and security of your information. Please note that only send.techbag.app data is stored encrypted in the OVH datacenter in Strasbourg, reinforcing our commitment to the security and confidentiality of your sensitive data.</p>"
+
+
+# as we want to include a differente link here (so we can get back to home page), we need to replicate all links or they will be revome when overwriting the links field:
+links:
+  - name: "Home"
+    icon: "fas fa-home"
+    url: "/"
+  - name: "About TechBag.app"
+    icon: "fas fa-circle-info"
+    url: "#about" 
+
+services:
+  - name: "More services on Komogoto"
+    icon: "fas fa-star"
+    items:
+      - name: "Komogoto.com"
+        logo: "assets/icons/Komogoto.png"
+        subtitle: "Offering solutions accessible to all!"
+        url: "https://komogoto.com/"
+        target: "_blank"

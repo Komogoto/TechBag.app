@@ -1,0 +1,114 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/v6/search for icons options
+
+title: "TechBag.app"
+subtitle: "An awesome bag👌"
+logo: "https://techbag.app/img/bagpack.png"
+
+header: true
+footer: '<p>Created with <span class="has-text-danger">❤️</span> by <a href="https://komogoto.com/">Komogoto</a></p>'
+theme: default
+
+columns: "3"
+
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#3636360f"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+message:
+  style: "is-dark"
+  title: "👋 Welcome!"
+  content: "<p>TechBag.app is a platform providing a number of opensource tools useful to computer technicians, system and network administrators...</p>"
+
+links:
+  - name: "Home"
+    icon: "fas fa-home"
+    url: "/"
+  - name: "About TechBag.app"
+    icon: "fas fa-circle-info"
+    url: "#about" 
+
+services:
+  - name: "Secure File and Data Sharing"
+    icon: "fas fa-lock"
+    items:
+      - name: "PrivateBin"
+        logo: "assets/tools/PrivateBin.png"
+        subtitle: "PrivateBin is a minimalist, encrypted pastebin software solution."
+        tag: "paste"
+        keywords: "cryptography paste pastebin encrypted"
+        url: "https://send.techbag.app/#/"
+        target: "_blank"
+      - name: "Plik"
+        logo: "assets/tools/Plik.png"
+        subtitle: "Plik is a temporary file upload system (Wetransfer like)"
+        tag: "send"
+        keywords: "file upload shraing encrypted"
+        url: "https://send.techbag.app/#/"
+        target: "_blank"
+  - name: "Diagramming Tools"
+    icon: "fas fa-pen-ruler"
+    items:
+      - name: "Excalidraw"
+        logo: "assets/tools/Excalidraw.svg"
+        subtitle: "Virtual whiteboard for sketching hand-drawn like diagrams"
+        tag: "draw"
+        keywords: "productivity drawing canvas collaboration whiteboard diagrams"
+        url: "https://excalidraw.techbag.app/"
+        target: "_blank"
+      - name: "WiseMapping (Beta)"
+        logo: "assets/tools/WiseMapping.png"
+        subtitle: "PrivateBin is a open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted / decrypted in the browser using 256bit AES in Galois Counter mode."
+        tag: "mindmap"
+        keywords: "productivity mindmap wisemapping collaboration whiteboard"
+        url: "https://mindmap.techbag.app/"
+        target: "_blank"
+      - name: "drawDB"
+        logo: "assets/tools/DrawDB.png"
+        subtitle: "Free, simple, and intuitive online database diagram editor and SQL generator."
+        tag: "database"
+        keywords: "productivity sql erd"
+        url: "https://drawdb.techbag.app/"
+        target: "_blank"
+  - name: "Productivity Tools"
+    icon: "fas fa-star"
+    items:
+      - name: "Rallly"
+        logo: "assets/tools/rallly.png"
+        subtitle: "Rallly is an scheduling and collaboration tool designed to make organizing events and meetings easier."
+        tag: "scheduling"
+        keywords: "productivity scheduling collaboration events meetings"
+        url: "https://rallly.techbag.app/"
+        target: "_blank"
+      - name: "Stirling PDF"
+        logo: "assets/tools/Stirling.svg"
+        subtitle: "Stirling PDF simplifies PDF manipulation with powerful tools."
+        tag: "PDF"
+        keywords: "pdf adobe"
+        url: "https://pdf.techbag.app/"
+        target: "_blank"
